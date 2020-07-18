@@ -74,18 +74,27 @@ body {
   border-bottom-width: thin;
   border-bottom-color: black;
   background-color: #BB3E3E;
+  display: grid;
+  grid-template-columns: 13fr 102fr 93fr 21fr 47fr 10fr;
+  grid-template-rows: 23fr 36fr 10fr 30fr;
 }
 
 .title-box {
-
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-rows: 50fr 40fr;
 }
 
 .title-title {
-
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
 }
 
 .title-h4 {
-
+ grid-column: 1 / 3;
+ grid-row: 2 / 3;
 }
 
 .title-widgets {
