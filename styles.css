@@ -4,11 +4,13 @@ body {
 }
 
 .left-side-parent {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .right-side-parent {
-
+  display: grid;
+  grid-template-rows: 6fr 13fr 23fr 59fr;
 }
 
 /* left side parent elements */
