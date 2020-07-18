@@ -1,5 +1,6 @@
 body {
-
+  display: grid;
+  grid-template-columns: 25fr 75fr;
 }
 
 .left-side-parent {
