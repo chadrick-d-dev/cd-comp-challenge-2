@@ -12,11 +12,12 @@ body {
   border-color: black;
   border-width: thin;
   border-style: solid;
+  background-color: #830F0F;
 }
 
 .right-side-parent {
   display: grid;
-  grid-template-rows: 6fr 13fr 23fr 59fr;
+  grid-template-rows: 3fr 13fr 23fr 59fr;
   border-color: black;
   border-width: thin;
   border-style: solid;
@@ -37,16 +38,17 @@ body {
 .input-row {
   display: grid;
   grid-template-columns: 7.5fr 70fr 7.5fr 7.5fr 7.5fr;
-  height: 40px;
   grid-row: 1 / 2;
 }
 
 .search-button {
-
+  background-color: #BB3E3E;
 }
 
 .top-input {
  grid-column: 2 / 3;
+ background-color: #BB3E3E;
+ margin-top: 0;
 }
 
 #search-button-1 {
@@ -71,6 +73,7 @@ body {
   border-bottom-style: solid;
   border-bottom-width: thin;
   border-bottom-color: black;
+  background-color: #BB3E3E;
 }
 
 .title-box {
@@ -135,12 +138,18 @@ body {
 
 .bottom-row {
   grid-row: 4 / 5;
+  display: grid;
+  grid-template-columns: 75fr 25fr;
 }
 
 /* bottom main and elements */
 
 .bottom-main {
-
+ grid-column: 1 / 2;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+ margin: 20px;
 }
 
 .bottom-main-title {
@@ -170,7 +179,10 @@ body {
 /* bottom side and elements */
 
 .bottom-side {
-
+  grid-column: 2 / 3;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .activity-buttton {
