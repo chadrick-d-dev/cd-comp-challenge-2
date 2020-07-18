@@ -26,11 +26,13 @@ body {
 /* right side parent elements */
 /* input row  and elements */
 .input-row {
-
+  display: grid;
+  grid-template-columns: 7.5fr 70fr 7.5fr 7.5fr 7.5fr;
+  height: 40px;
+  grid-row: 1 / 2;
 }
 
 .search-button {
-
 }
 
 .top-input {
