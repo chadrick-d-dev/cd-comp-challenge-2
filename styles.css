@@ -17,7 +17,7 @@ body {
 
 .right-side-parent {
   display: grid;
-  grid-template-rows: .75fr 3fr 4.5fr 13fr;
+  grid-template-rows: .75fr 3fr 17.5fr;
   border-color: black;
   border-width: thin;
   border-style: solid;
@@ -127,11 +127,19 @@ body {
   border: none
 }
 
+/* image and bottom row */
+
+.image-and-bottom {
+  grid-row: 3 / 4;
+  display: grid;
+  grid-template-rows: 4.5fr 13fr;
+  background: url("https://cache.desktopnexus.com/thumbseg/1778/1778104-bigthumbnail.jpg");
+}
 /* image row and elements */
 
 .image-row {
-  grid-row: 3 / 4;
-  background-color: #EF403E;
+  grid-row: 1 / 2;
+  /* background-color: #EF403E; */
 }
 
 .three-circle-box {
@@ -139,10 +147,19 @@ body {
 }
 
 .circle-image-trio {
-
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .oval-label {
+  border-style: inset;
+  border-color: black;
+  border-radius: 40%;
+  width: 140px;
+  background-color: #F1EED4;
+  text-align: center;
+  margin: 0;
 
 }
 
@@ -157,16 +174,17 @@ body {
 /* bottom row and elements */
 
 .bottom-row {
-  grid-row: 4 / 5;
+  grid-row: 2 / 3;
   display: grid;
   grid-template-columns: 75fr 25fr;
-  background-color: #EF403E;
+  /* background-color: #EF403E; */
 }
 
 /* bottom main and elements */
 
 .bottom-main {
  border-style: solid;
+ grid-column: 1 / 2;
  border-width: thin;
  border-color: black;
  margin: 20px;
