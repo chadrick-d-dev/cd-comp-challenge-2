@@ -207,10 +207,16 @@ body {
   margin-bottom: 20px;
 }
 
-.activity-buttton {
-
+.activity-button {
+  background: #D8F2D5;
+  font-size: 16pt;
+  border-radius: 20px;
 }
 
+.activity-img {
+  height: 30px;
+  width: 30px;
+}
 .side-h2 {
 
 }
