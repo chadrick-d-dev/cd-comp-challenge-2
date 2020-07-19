@@ -157,7 +157,6 @@ body {
 /* bottom row and elements */
 
 .bottom-row {
-  grid-column: 1 / 2;
   grid-row: 4 / 5;
   display: grid;
   grid-template-columns: 75fr 25fr;
@@ -178,6 +177,9 @@ body {
   background-color: #721821;
 }
 
+.bottom-title {
+  margin-top: 0;
+}
 .action-button {
 
 }
