@@ -78,17 +78,6 @@ body {
  background-color: #F1EED4;
 }
 
-#search-button-1 {
-}
-
-#search-button-2 {
-}
-
-#search-button-3 {
-}
-
-#search-button-4 {
-}
 /* title row and elements */
 
 .title-row {
@@ -114,10 +103,11 @@ body {
 .title-title {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
+  color: #711721;
 }
 
 .title-h5 {
-
+  color: #711721;
 }
 
 #title-h5-1 {
@@ -136,11 +126,24 @@ body {
 }
 
 .oval-title-widget {
-
+  background: none;
+  border-radius: 45%;
+  width: 100px;
+  height: 35px;
+  color: #711721;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: bold;
 }
 
 .round-title-widget {
+  background: none;
+  border-radius: 50%;
+}
 
+.widget-png {
+  height: 20px;
+  width: 20px;
 }
 
 .title-button-bar {
@@ -150,7 +153,11 @@ body {
 
 .title-button {
   background: none;
-  border: none
+  border: none;
+  color: #711721;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: bolder;
 }
 
 /* image and bottom row */
@@ -165,17 +172,37 @@ body {
 
 .image-row {
   grid-row: 1 / 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom-style: ridge;
+  border-bottom-color: #F1EED4;
   /* background-color: #EF403E; */
 }
 
 .three-circle-box {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 450px;
+  margin-top: 70px;
 }
 
 .circle-image-trio {
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
+  border-style: ridge;
+  border-color: #711721;
+}
+
+#circle-trio-1 {
+  margin-right: 25px;
+}
+
+#circle-trio-2 {
+  margin-right: 25px;
 }
 
 .oval-label {
@@ -183,18 +210,23 @@ body {
   border-color: black;
   border-radius: 40%;
   width: 140px;
+  height: 20px;
   background-color: #F1EED4;
   text-align: center;
   margin: 0;
-
 }
 
 .rectangle-image-box {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
 }
 
 .rectangle-image {
-
+  border-style: ridge;
+  border-color: #711721;
+  margin-bottom: 15px;
 }
 
 /* bottom row and elements */
