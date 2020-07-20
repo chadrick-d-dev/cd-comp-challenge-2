@@ -16,8 +16,8 @@ body {
 }
 
 .right-side-parent {
-  display: grid;
-  grid-template-rows: .75fr 3fr 17.5fr;
+  display: flex;
+  flex-direction: column;
   border-color: black;
   border-width: thin;
   border-style: solid;
@@ -238,20 +238,25 @@ body {
   flex-wrap: wrap;
   border-bottom-style: ridge;
   border-bottom-color: #F1EED4;
-  /* background-color: #EF403E; */
 }
 
 .three-circle-box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 450px;
+  flex-direction: column;
+  align-items: center;
   margin-top: 70px;
 }
 
+.trio-container {
+  display: flex;
+  flex-direction: row;
+  width: 520px;
+  margin-bottom: 30px;
+}
+
 .circle-image-trio {
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   border-style: ridge;
   border-color: #711721;
@@ -274,6 +279,10 @@ body {
   background-color: #F1EED4;
   text-align: center;
   margin: 0;
+}
+
+#oval-label-1 {
+
 }
 
 .rectangle-image-box {
@@ -311,17 +320,36 @@ body {
 
 .bottom-main-title {
   background-color: #721821;
+  color: #F1EED4;
 }
 
 .bottom-title {
   margin-top: 0;
+  color: #F1EED4;
 }
-.action-button {
 
+.action-button {
+  background-color: #F1EED4;
 }
 
 .profile-info {
 
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  border-bottom-style: ridge;
+  border-bottom-color: #711721;
+}
+
+.profile-section-last {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.profile-div {
+  width: 100px;
 }
 
 .profile-h4 {
@@ -349,18 +377,48 @@ body {
   background: #D8F2D5;
   font-size: 16pt;
   border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.copy-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom-style: ridge;
+  border-bottom-color: #721821;
 }
 
 .activity-img {
   height: 30px;
   width: 30px;
 }
-.side-h2 {
 
+.side-png {
+  height: 20px;
+  width: 20px;
+}
+
+.side-h2 {
+  color: #AC0E17;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.side-h2 span {
+  background: #F1EED4;
+  display: inline-block;
 }
 
 .side-p {
+  color: #AC0E17;
+  margin: 0;
+  margin-bottom: 10px;
+}
 
+.side-p span {
+  background: #F1EED4;
+  display: inline-block;
 }
 
 .side-input {
