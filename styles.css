@@ -207,6 +207,7 @@ body {
   font-weight: bolder;
   border-bottom-style: ridge;
   border-bottom-color: black;
+  font-size: 15pt;
 }
 
 .title-button {
@@ -216,6 +217,7 @@ body {
   font-style: oblique;
   font-family: fantasy;
   font-weight: bolder;
+  font-size: 15pt;
 }
 
 /* image and bottom row */
