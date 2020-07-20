@@ -16,8 +16,8 @@ body {
 }
 
 .right-side-parent {
-  display: grid;
-  grid-template-rows: .75fr 3fr 17.5fr;
+  display: flex;
+  flex-direction: column;
   border-color: black;
   border-width: thin;
   border-style: solid;
@@ -238,7 +238,6 @@ body {
   flex-wrap: wrap;
   border-bottom-style: ridge;
   border-bottom-color: #F1EED4;
-  /* background-color: #EF403E; */
 }
 
 .three-circle-box {
@@ -322,6 +321,22 @@ body {
 
 .profile-info {
 
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  border-bottom-style: ridge;
+  border-bottom-color: #711721;
+}
+
+.profile-section-last {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.profile-div {
+  width: 100px;
 }
 
 .profile-h4 {
