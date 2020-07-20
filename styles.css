@@ -25,14 +25,28 @@ body {
 
 /* left side parent elements */
 
-.circle-image-1 {
+.left-sub-section-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-style: inset;
+  border-bottom-color: #650C0C;
 
+}
+
+.circle-image-1 {
+  width: 75px;
+  height:75px;
+  border-radius: 50%;
 }
 
 .left-h4 {
-
+  color: #F1EED4;
 }
 
+.left-h4-1 {
+  margin: 0;
+}
 /* right side parent elements */
 /* input row  and elements */
 .input-row {
